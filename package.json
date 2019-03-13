@@ -1,37 +1,29 @@
 {
-  "name": "jest-json-reporter",
-  "version": "1.2.2",
+  "name": "jest-json-reporter-v2",
+  "version": "1.0.0",
   "description": "JSON test results processor for Jest.",
   "main": "index.js",
   "scripts": {
     "test": "jest",
     "dev": "jest --watch"
   },
-  "jest": {
-    "testResultsProcessor": "."
-  },
-  "jestJsonReporter": {
-    "outputFile": "results.json"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vall3y/jest-json-reporter.git"
+    "url": "git+https://git@github.com/ilyakotlov/jest-json-reporter-v2.git"
   },
-  "homepage": "https://github.com/Vall3y/jest-json-reporter",
+  "homepage": "https://github.com/ilyakotlov/jest-json-reporter-v2",
   "keywords": [
     "test",
     "jest",
-    "reporter"
+    "reporter",
+    "json"
   ],
   "author": {
-    "email": "vall3y@gmail.com",
-    "name": "Guy Zissman"
+    "email": "ilya.kotlov@gmail.com",
+    "name": "Ilya Kotlov"
   },
   "license": "MIT",
   "devDependencies": {
     "jest": "^19.0.2"
-  },
-  "dependencies": {
-    "read-pkg": "^2.0.0"
   }
 }
